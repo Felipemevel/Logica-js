@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+    --primary-color:rgb(13 106 134);
+    --primary-color-darker:rgb(5, 65, 83);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 500px ;
+    margin: 100px auto;
+    background: #ffff;
+    padding: 90px;
+    border-radius:50%;
+    height: 500px;
+    box-shadow: 5px 5px 15px 1px black;
+}
+
+.botoes {
+    display: flex;
+    gap: 40px;
+}
+
+.botoes > button {
+    border-radius: 20px;
+    height: 35px;
+    width: 85px;
+    background-color: rgba(143, 200, 250, 0.712);
+    box-shadow: 1px 1px 2px 1px black;
+}
+
+.botoes > button:hover {
+    background: rgba(91, 154, 209, 0.712);
+    color: white;
+}
+
+.relogio {
+    font-size: 2.5em;
+}
+
+.pausado {
+    color: red;
+}
